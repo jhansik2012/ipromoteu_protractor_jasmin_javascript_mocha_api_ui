@@ -1,0 +1,9 @@
+TestName,OperatorName,Password,Url,VendorName,JobID,CustomerName,Product,masterCode,searchKeyword,VendorCode
+TC001,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,
+TC002,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,Venkat,1723223AFP,,ASI Products
+TC003,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,
+TC004,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,
+TC005,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,
+TC006,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,
+TC007,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,SANM: SanMar,,"AAA: AAA Specialty Wholesale, Inc",
+TC008,AFP ,XOMS1234,https://xoms2-test.ipromoteu.com/login,,,,ASI Products,"BMZ",,"AFP"

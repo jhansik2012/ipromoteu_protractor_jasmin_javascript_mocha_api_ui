@@ -1,0 +1,12 @@
+{
+    "reporterEnabled": "mochawesome-report-generator",
+    "mochawesomeReporterOptions": {
+        "reportDir": "results/ApiReports/htmlReports",
+        "overwrite": false,
+        "timestamp": "mmddyy:HHMMss",
+        "toConsole": true,
+        "html": true,
+        "json": false,
+        "reportFilename": "testReport"
+    }
+}

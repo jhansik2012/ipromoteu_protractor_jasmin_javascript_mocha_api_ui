@@ -1,0 +1,2 @@
+yarn testAllApis
+yarn getStatsJson

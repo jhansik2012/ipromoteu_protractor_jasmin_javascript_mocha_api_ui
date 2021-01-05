@@ -1,0 +1,12 @@
+file:
+  - "./src/Api/library/apiCommon"     # "./src/Api/library/apiCommon_junkdata"   ./src/Api/library/apiCommon
+reporter: 'mochawesome'
+reporter-options:
+  - "reportDir = ../results/ApiReports/htmlReports"
+  -      "overwrite = false"
+  -      "timestamp = mmddyy:HHMMss"
+  -      "html = true"
+  -      "json = false"
+  -      "reportFilename = iPromoteUApiReport"
+require: 
+  - "@babel/register"

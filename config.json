@@ -1,0 +1,75 @@
+{
+  "affiliateLogo": "http://54.82.98.126:4404/cgi-bin/xwebclientcgi.exe?CustomerPortalGetAffiliateLogo&affiliateCode=",
+  "apiHost": "alt19r8f4i.execute-api.us-east-1.amazonaws.com",
+  "apiHosts": {
+    "core": "alt19r8f4i.execute-api.us-east-1.amazonaws.com",
+    "payment": "zwl23tsn04.execute-api.us-east-1.amazonaws.com"
+  },
+  "aws": {
+    "cognito": {
+      "identityPoolId": "us-east-1:f7ecfc38-6a18-4491-9822-f4b64abbdff3",
+      "oauth": {},
+      "userPoolId": "us-east-1_5RjA9fXlW",
+      "userPoolWebClientId": "7vt5j78jnsf5qvui1jct1vr254"
+    },
+    "region": "us-east-1",
+    "s3": {
+      "bucket": "xoms2-us-dev"
+    }
+  },
+  "databases": {
+    "mysql": {
+      "database": "xebra",
+      "host": "ec2-54-82-98-126.compute-1.amazonaws.com",
+      "password": "us-dev-cp",
+      "port": 3306,
+      "user": "us-dev-cp"
+    }
+  },
+  "email": {
+    "apiKey": "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"
+  },
+  "enableLogRocket": true,
+  "environment": "development",
+  "frontEndUrl": "http://xoms2-us-dev.s3-website-us-east-1.amazonaws.com",
+  "ipuRegion": "US",
+  "isCanada": false,
+  "isLevelIIIEnabled": false,
+  "orderPDF": "http://54.82.98.126:4404/cgi-bin/xwebclientcgi.exe?CustomerPortalGetInvoicePDF&billingCustomerCode=",
+  "pdf": {
+    "browserURL": "http://54.234.226.136:9222",
+    "pdfOptions": {
+      "format": "letter",
+      "landscape": false,
+      "margin": {
+        "bottom": "1in",
+        "left": ".5in",
+        "right": ".5in",
+        "top": ".5in"
+      }
+    }
+  },
+  "postTransactionUrl": "https://awstest.xebra.com/cgi-bin/xwebclientcgi.exe?CustomerPortalHandlePayments",
+  "proxy": "https://cors-anywhere.herokuapp.com/",
+  "slackBotChannel": "build",
+  "slackBotToken": "xoxb-582159508389-833529301077-WTcrKjKXAqr52JmIh8jUMj1Y",
+  "stage": "dev",
+  "vantiv": {
+    "AcceptorID": 87476766778,
+    "AccountID": 1065508,
+    "AccountToken": "00ECC9ED806D6FC38E0BBD5F0B96BB6D544D15FD437DAB6B304D8A086ACEE68741448E01",
+    "ApplicationID": 2875,
+    "ApplicationName": "HostedPayments",
+    "ApplicationVersion": "1.0",
+    "hostedCreatePaymentAccountUrl": "https://certservices.elementexpress.com",
+    "hostedPaymentUrl": "https://certtransaction.hostedpayments.com/?TransactionSetupID=",
+    "paymentAccountCreateWithTransIdXmlns": "https://services.elementexpress.com",
+    "setupTransactionHostedUrl": "https://certtransaction.elementexpress.com",
+    "transactionQueryXmlns": "https://reporting.elementexpress.com",
+    "transactionQueryhost": "https://certreporting.elementexpress.com",
+    "transactionXmlns": "https://transaction.elementexpress.com"
+  },
+  "compilerOptions": {
+  }
+}
+
